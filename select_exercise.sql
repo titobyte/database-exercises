@@ -4,7 +4,7 @@
 USE codeup_test_db;
 
 -- Find albums by Pink Floyd --
-select * from albums where name = 'Pink Floyd'
+select * from albums where name = 'Pink Floyd';
 
 -- Year sgt pepper's lonely hearts club band was released --
 select release_date from albums where name = 'Sgt.Peppers''s Lonely Hearts Club Band';
