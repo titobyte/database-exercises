@@ -1,3 +1,6 @@
+-- noinspection SqlNoDataSourceInspectionForFile
+
+-- noinspection SqlDialectInspectionForFile
 USE codeup_test_db;
 
 -- Find albums by Pink Floyd --
@@ -16,4 +19,4 @@ select * from albums where release_date between 1990 and 1999;
 select * from albums where sales < 20000000;
 
 -- All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock" --
-select * from albums where genre like '%rock%' or genre like '%Progressive rock%';
+select * from albums where genre like '%rock%';
