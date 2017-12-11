@@ -4,7 +4,7 @@ USE codeup_test_db;
 select * from albums where name = 'Pink Floyd'
 
 -- Year sgt pepper's lonely hearts club band was released --
-select release_date from albums where name = 'Sgt.Peppers''s Lonley Hearts Club Band';
+select release_date from albums where name = 'Sgt.Peppers''s Lonely Hearts Club Band';
 
 -- The genre for Nevermind --
 select genre from albums where name  = 'Nevermind';
